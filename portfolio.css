@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+}
+
+.main p {
+    font-size: 1.4rem;
+    line-height: 0.5rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.auto  {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 650;
+}
+
+.links a {    
+   text-decoration: none;
+   color: black;
+   font-size: 1.5rem;
+   padding-top: 3rem;
+}
+
+.links a:hover {    
+    color: black;
+    font-weight: 800;
+    
+ }
+.name {
+    display: grid;
+    justify-content: center;
+    padding: 0;
+}
+
+
+ .name p {
+    font-size: 10rem;
+    font-family: "LXGW WenKai Mono TC", monospace;
+ }
+
+
+ h1 {
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+ }
+
+ #about {
+    display: flex;
+ }
+
+ #about p {
+    text-align: center;
+    font-size: 1.8rem;   
+ }
+
+ .project {
+    display: flex;
+    justify-content: end;
+ }
+
+.project a {
+    font-size: 2.8rem;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: black;
+ }
+
+ .project a:hover {
+   color: black;
+   font-weight: 700;
+ }
+
+
+ .project span {
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+ }
+
+
+ /*project html*/
+
+
+.theproblem {
+   display: flex;
+   justify-content: end;
+   padding-top: 5rem;
+}
+
+@media (max-width: 180px) {
+   .theproblem {
+      font-size: 1.2rem;
+   }
+
+ }
+
+.theproblem h3 {
+   width: calc(100% - 200px);
+   font-family:  "LXGW WenKai Mono TC", monospace;
+   font-size: 3rem;
+   padding-right: 30rem;
+}
+
+.theproblem p{
+   font-family: "Poppins", sans-serif;
+   font-size: 1.5rem;
+   text-align: end;
+   
+}
+
+.theprocess h3 {
+   font-size: 3rem;
+   font-family:  "LXGW WenKai Mono TC", monospace;
+   text-align: center;
+   
+}
+
+.theprocess p {
+   font-size: 2.4rem;
+   text-align: center;
+}
+
+.animated-text {
+   background: orange;
+   height: 30rem;
+   overflow: hidden;
+}
+
+.line {
+   text-align: center;
+   font-size: 3rem;
+}
+
+.line:first-child {
+   animation: anim 20s infinite;
+}
+
+@keyframes anim {
+   0% {
+      margin-top: 0;
+   }
+   16% {
+      margin-top: -60px;
+   }
+   33% {
+      margin-top: -120px;
+   }
+   50% {
+      margin-top: -180px;
+   }
+   66% {
+      margin-top: -120px;
+   }
+
+   100% {
+      margin-top: 0;
+   }
+}
+
+.pain-points {
+   font-size: 3rem;
+   padding-top: 2rem;
+   
+   
+}
+
+.pain-points h3 {
+   font-family:  "LXGW WenKai Mono TC", monospace;
+   font-size: 3rem;
+}
+
+.pain-points p {
+   text-align: end;
+   font-family:  "Poppins", sans-serif;
+   font-size: 1.5rem;
+}
+
+.ideate h3 {
+   font-family:  "LXGW WenKai Mono TC", monospace;
+   font-size: 3rem;
+   text-align: end;
+
+}
+
+.ideate p {
+   font-size: 1.5rem;
+}
+
+.images {
+   display: flex;
+   gap: 20rem;
+}
+
+.images h3 {
+   font-size: 2rem;
+   font-family:  "LXGW WenKai Mono TC", monospace;
+}
+
+
+.challenge p {
+   font-size: 1.5rem;
+   font-family:  "Poppins", sans-serif;
+   text-align: center;
+}
+
+.challenge h3 {
+   font-family: "LXGW WenKai Mono TC", monospace;
+   font-size: 3rem;
+   text-align: center;
+}
+
+.new-website {
+   font-size: 2.5rem;
+   font-family:  "Poppins", sans-serif;
+}
+
+
+/*connect*/
+
+#connect {
+   border-top: 2px solid black;
+}
+
+#connect p {
+   font-size: 2rem;
+}
+
+#connect a {
+   text-decoration: none;
+   color: black;
+}
+
+#connect a:hover {
+   color: black;
+   font-weight: 700;
+}
